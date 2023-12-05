@@ -28,3 +28,8 @@
 .card img {
     height: 300px;
 }
+
+.position-top {
+    object-position: top;
+}
+
