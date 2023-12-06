@@ -4,7 +4,11 @@
     margin-right: 0 !important;
 }
 
-.navbar-brand img {
+nav {
+    background-color: #f5cd7a;
+}
+
+nav img {
     padding-right: 15px;
     width: 65px;
 }
@@ -32,4 +36,38 @@
 .position-top {
     object-position: top;
 }
+
+.skill-icons {
+    padding: 0 32px;
+}
+
+.fa-flip {
+    --fa-flip-x: 0; --fa-flip-y: 0;
+}
+.fa-flip:hover {
+    --fa-flip-x: 1; --fa-flip-y: 0;
+}
+
+/* backgrounds */
+
+#welcome {
+    background-color: #F7D794;
+}
+
+#about-me {
+    background-color: #F3A683;
+}
+
+#about-me > div > div:first-child {
+    background-color: #e0936f;
+}
+
+#skills {
+    background-color: #786FA6;
+}
+
+#skills > div > div:first-child {
+    background-color: #574B90;
+}
+
 
