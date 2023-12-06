@@ -30,15 +30,15 @@ nav img {
 }
 
 .card img {
-    height: 300px;
+    height: 400px;
 }
-
-.position-top {
+.cover-wrapper {
+    object-fit: cover;
     object-position: top;
 }
 
 .skill-icons {
-    padding: 0 32px;
+    padding: 32px;
 }
 
 .fa-flip {
@@ -68,6 +68,14 @@ nav img {
 
 #skills > div > div:first-child {
     background-color: #574B90;
+}
+
+#works {
+    background-color: #64cddb;
+}
+
+#works > div > div:first-child {
+    background-color: #3ec1d3;
 }
 
 
